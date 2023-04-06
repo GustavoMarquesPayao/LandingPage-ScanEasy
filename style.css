@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
+/* reset */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,23 +9,25 @@
     text-decoration: none;
 }
 
-/* reset */
+/*body*/
 
 body{
     font-size: 100%;
-    background: linear-gradient(243.15deg, #FFFFFF 26.32%, #F9EBC1 108.74%);
+    background: linear-gradient(290.64deg, #FFFFFF 17.15%, #F9EBC1 136.41%);
 }
 
-/*body*/
+/*header*/
 
 .cabecalho{
-    height: 136px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 100px;
-    gap: 488px;
+    padding: 36px 100px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #BBBBBB;
+    background: linear-gradient(290.64deg, #FFFFFF 17.15%, #F9EBC1 136.41%);
 }
 
 .cabecalho-logo{
@@ -33,7 +37,9 @@ body{
 .cabecalho-nav{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 32px;
+    width: fit-content;
 }
 
 .cabecalho-itens{
@@ -42,22 +48,25 @@ body{
     font-weight: 600;
     color: #1E2358;
     line-height: 36px;
+    width: fit-content;
 }
 
-/*header*/
+/*main*/
 
 .conteudo{
-    border-top: 1px solid #BBBBBB;
-}
 
-.Conteudo-principal{
-    height: 762px;
+}
+/*section1*/
+
+.conteudo-principal{
+
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 100px;
+    justify-content: center;
+    padding: 12px 100px;
     gap: 303px;
+    border-bottom: 1px solid #BBBBBB;
 }
 
 .conteudo-calltoaction{
@@ -65,6 +74,7 @@ body{
     flex-direction: column;
     align-items: baseline;
     gap: 48px;
+    width: 610px;
 }
 
 .conteudo-imagem-logo{
@@ -95,3 +105,41 @@ body{
 .conteudo-imagem-mascote{
     height: 718px;
 }
+
+/*section2*/
+
+.conteudo-secundario{
+    display: flex;
+    justify-content: center;
+    padding: 88px 0px;;
+    border-bottom: 1px solid #BBBBBB ;
+}
+
+.conteudo-secundario-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 52px;
+}
+
+.conteudo-secundario-titulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #151E59;
+}
+
+.conteudo-secundario-texto-vantagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+}
+
+.conteudo-secundario-itens{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #151E59;
+}
+
