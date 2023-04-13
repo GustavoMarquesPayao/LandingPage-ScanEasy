@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*body*/
+
+body{
+    font-size: 100%;
+    background: linear-gradient(290.64deg, #FFFFFF 17.15%, #F9EBC1 136.41%);
+    box-sizing: border-box;
+}
+
+/*header*/
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 100px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #BBBBBB;
+    background: linear-gradient(290.64deg, #FFFFFF 17.15%, #F9EBC1 136.41%);
+}
+
+.cabecalho-logo{
+    height: 65px;
+}
+
+.cabecalho-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    width: fit-content;
+}
+
+.cabecalho-itens{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E2358;
+    line-height: 36px;
+    width: fit-content;
+}
+
+.calltoaction{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E2358;
+    line-height: 36px;
+    padding: 14px;
+    border: 3px solid #00A281;
+    border-radius: 18px;
+}
+
+.calltoaction:hover{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E2358;
+    line-height: 36px;
+    padding: 14px;
+    border: 3px solid #00A281;
+    border-radius: 18px;
+    background: #00A281;
+}
+
+/* Main */
+
+.conteudo{
+    box-sizing: border-box;
+}
+
+.conteudo__quemsomos{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    padding: 80px 100px;
+    gap: 48px;
+    border-bottom: 1px solid #BBBBBB;
+}
+
+.conteudo__quemsomos__titulo{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.conteudo__quemsomos__titulo__texto{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #00A281;
+}
+
+.conteudo__quemsomos__conteudo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+}
+
+.conteudo__quemsomos__conteudo__texto{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    text-align: justify;
+    color: #1E2358;
+    width: 630px;
+}
+
+.conteudo__quemsomos__textodestaque{
+    text-align: center;
+}
+
+.conteudo__quemsomos__textodestaque__texto{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #1E2358;
+}
+
+/* Footer */
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 100px;
+}
+
+.rodape__logodireitos{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.rodape__logodireitos__imagem{
+    color: #00A281;
+}
+
+.rodape__logodireitos__texto{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #00a281;
+}
+
+.rodape__icones{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.fa-brands{
+    font-size: 24px;
+    color:#00A281;
+}
