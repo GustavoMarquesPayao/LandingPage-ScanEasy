@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Landing Page ScanEasy</title>
 </head>
 <body>
     <header class="cabecalho">
         <img class="cabecalho-logo" src="imagens/logoTextoAsset 1 (1).svg" alt="Logo">
         <nav class="cabecalho-nav">
-            <a class="cabecalho-itens">Quem somos</a> 
-            <a class="cabecalho-itens">Nossos Serviços</a>
-            <a class="cabecalho-itens">Contato</a>
+            <a class="cabecalho-itens" href="quem somos.html">Quem somos</a> 
+            <a class="cabecalho-itens" href="#">Nossos Serviços</a>
+            <a class="cabecalho-itens" href="#">Contato</a>
+            <a class="cabecalho-itens calltoaction" href="#">Baixe o app</a>
         </nav>
     </header>
 
@@ -21,7 +25,7 @@
             <div class="conteudo-calltoaction">
                 <img class="conteudo-imagem-logo" src="imagens/logoTexto verde.png" alt="ScanEasy">
                 <h1 class="conteudo-escrito">"ScanEasy, o sistema de Self Checkout que facilita a sua vida." A revolução do varejo!</h1>
-                <button class="conteudo-botao">Baixe agora!</button>
+                <a class="conteudo-botao" href="#">Baixe agora!</a>
             </div>
             <img class="conteudo-imagem-mascote" src="imagens/3d-casual-life-black-girl-with-grocery-bag-holding-credit-card 1.svg" alt="mascote">
         </section>
@@ -39,8 +43,17 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="rodape">
+        <div class="rodape__logodireitos">
+            <img class="rodape__logodireitos__imagem" src="imagens/Carrinho azul.svg">
+            <p class="rodape__logodireitos__texto">© 2023 ScanEasy</p>
+        </div>
 
+        <div class="rodape__icones">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-google-play"></i>
+            <i class="fa-brands fa-app-store"></i>
+        </div>
     </footer>
 </body>
 </html>
