@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
+:root{
+    --cor-primaria: #151E59;
+    --cor-secundaria: #00A281;
+    --cor-borda: #BBBBBB;
+
+    --font-size-24px: 24px;
+}
+
 /* reset */
 
 *{
@@ -27,7 +35,7 @@ body{
     padding: 36px 100px;
     position: sticky;
     top: 0;
-    border-bottom: 1px solid #BBBBBB;
+    border-bottom: 1px solid var(--cor-borda);
     background: linear-gradient(290.64deg, #FFFFFF 17.15%, #F9EBC1 136.41%);
 }
 
@@ -45,34 +53,34 @@ body{
 
 .cabecalho-itens{
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: var(--font-size-24px);
     font-weight: 600;
-    color: #1E2358;
+    color: var(--cor-primaria);
     line-height: 36px;
     width: fit-content;
 }
 
 .calltoaction{
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: var(--font-size-24px);
     font-weight: 600;
-    color: #1E2358;
+    color: var(--cor-primaria);
     line-height: 36px;
     padding: 14px;
-    border: 3px solid #00A281;
+    border: 3px solid var(--cor-secundaria);
     border-radius: 18px;
 }
 
 .calltoaction:hover{
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: var(--font-size-24px);
     font-weight: 600;
-    color: #1E2358;
+    color: var(--cor-primaria);
     line-height: 36px;
     padding: 14px;
-    border: 3px solid #00A281;
+    border: 3px solid var(--cor-secundaria);
     border-radius: 18px;
-    background: #00A281;
+    background: var(--cor-secundaria);
 }
 
 /* Main */
@@ -88,7 +96,7 @@ body{
     justify-content: center;
     padding: 80px 100px;
     gap: 48px;
-    border-bottom: 1px solid #BBBBBB;
+    border-bottom: 1px solid var(--cor-borda);
 }
 
 .conteudo__quemsomos__titulo{
@@ -101,7 +109,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-weight: 600;
-    color: #00A281;
+    color: var(--cor-secundaria);
 }
 
 .conteudo__quemsomos__conteudo{
@@ -114,9 +122,9 @@ body{
 .conteudo__quemsomos__conteudo__texto{
     font-family: 'Poppins';
     font-weight: 500;
-    font-size: 24px;
+    font-size: var(--font-size-24px);
     text-align: justify;
-    color: #1E2358;
+    color: var(--cor-primaria);
     width: 630px;
 }
 
@@ -129,7 +137,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
-    color: #1E2358;
+    color: var(--cor-primaria);
 }
 
 /* Footer */
@@ -149,14 +157,14 @@ body{
 }
 
 .rodape__logodireitos__imagem{
-    color: #00A281;
+    width: 40px;
 }
 
 .rodape__logodireitos__texto{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 500;
-    color: #00a281;
+    color: var(--cor-secundaria);
 }
 
 .rodape__icones{
@@ -166,6 +174,6 @@ body{
 }
 
 .fa-brands{
-    font-size: 24px;
-    color:#00A281;
+    font-size: var(--font-size-24px);
+    color:var(--cor-secundaria);
 }
